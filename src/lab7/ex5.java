@@ -14,11 +14,11 @@ public class ex5 {
             System.out.print("Enter an integer");
             x = sc.nextInt();
             if (x % 2 == 0)
-                totalEven +=x;
+                totalEven += x;
             else
-                totalOdd +=x;
-            }
-            System.out.print("Total of even number" + totalEven);
-            System.out.print("Total of Odd number" + totalOdd);
+                totalOdd += x;
         }
+        System.out.print("Total of even number" + totalEven);
+        System.out.print("Total of Odd number" + totalOdd);
     }
+}
